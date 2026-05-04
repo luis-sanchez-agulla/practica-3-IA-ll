@@ -31,3 +31,36 @@
   source ~/.venvs/practica3_ia2_gpu/bin/activate
   jupyter lab --no-browser --ip=0.0.0.0 --port=8888 --notebook-dir='/mnt/c/Users/sluis/Desktop/practica-3-IA-ll'
   Abre http://localhost:8888 en tu navegador Windows y copia el token que aparece en la terminal.
+
+
+
+   ---
+  Paso 2 — Habilitar la "Plataforma de máquina virtual" en Windows
+
+  Una vez reiniciado, abre PowerShell como Administrador y ejecuta:
+
+  dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+  Luego reinicia y ejecuta de nuevo:
+
+  wsl --install -d Ubuntu-22.04
+
+  ---
+  Diagnóstico rápido
+
+  Para verificar si tu CPU soporta virtualización, ejecuta esto en PowerShell:
+
+  Get-ComputerInfo -Property "HyperV*"
+
+  Si HyperVRequirementVirtualizationFirmwareEnabled dice False, el problema está en el BIOS (Paso 1). Si dice True pero
+  igual falla, el problema es solo el Paso 2.
+
+  ---
+  En resumen: Tu CPU soporta virtualización pero está apagada en el BIOS. Habilítala ahí primero, luego activa el
+  componente de Windows.
+
+
+
+  jupyter notebook --no-browser --port=8888 /pc
+  ssh -L 8888:localhost:8888 tunombre@ip_torre / portatil
+  
