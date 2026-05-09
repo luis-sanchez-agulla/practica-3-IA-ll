@@ -1,3 +1,6 @@
 .pesos_modelos/*
 .venv/*
+.GPU.md
+.Guia_NLP_Deep_Learning.ipynb
+.setup_gpu_wsl.sh
 *.zip
