@@ -1,0 +1,26 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
+\contentsline {section}{\numberline {2}Conjunto de datos y preprocesamiento}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Descripción del conjunto de datos}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Limpieza del texto y eliminación de stopwords}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Visualización del vocabulario por clase}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Análisis del vocabulario por clase}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Construcción del vocabulario y conversión a IDs}{7}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Ejercicio 1: Generación de Word Embeddings con Skip-Gram}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}El algoritmo Skip-Gram}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Negative Sampling}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Arquitectura del modelo Skip-Gram}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Configuraciones entrenadas y resultados}{8}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Ejercicio 2: Clasificación con LSTM y GRU}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Selección del embedding}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Partición del corpus y preparación de secuencias}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Construcción de modelos}{10}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Callbacks de entrenamiento}{11}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Configuraciones evaluadas y resultados}{11}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Evaluación y preguntas}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Pregunta 1: ¿Ha alcanzado el modelo un entrenamiento óptimo?}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Análisis de las curvas de entrenamiento}{13}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Pregunta 2: ¿Qué revela la matriz de confusión sobre el rendimiento?}{14}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Pregunta 3: ¿Qué diferencia de precisión se observa al cambiar de embedding?}{15}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Pregunta 4: ¿LSTM y GRU reaccionaron de forma diferente a los embeddings?}{16}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Conclusiones}{16}{section.6}%

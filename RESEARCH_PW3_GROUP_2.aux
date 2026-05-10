@@ -1,0 +1,78 @@
+\relax 
+\providecommand \babel@aux [2]{\global \let \babel@toc \@gobbletwo }
+\@nameuse{bbl@beforestart}
+\catcode `"\active 
+\catcode `<\active 
+\catcode `>\active 
+\@nameuse{es@quoting}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\babel@aux{spanish}{}
+\citation{mikolov2013}
+\citation{mikolov2013}
+\citation{zhang2015}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introducción}{3}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Conjunto de datos y preprocesamiento}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Descripción del conjunto de datos}{3}{subsection.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Distribución de clases en news\_dataset.csv ($\approx $ 30.000 muestras por clase).}}{4}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:clases}{{1}{4}{Distribución de clases en news\_dataset.csv ($\approx $ 30.000 muestras por clase)}{figure.caption.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Distribución de longitud de descripciones por clase.}}{4}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:longitud}{{2}{4}{Distribución de longitud de descripciones por clase}{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Limpieza del texto y eliminación de stopwords}{5}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Visualización del vocabulario por clase}{5}{subsection.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Nubes de palabras por clase tras el preprocesamiento.}}{5}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:wordcloud}{{3}{5}{Nubes de palabras por clase tras el preprocesamiento}{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Top 15 palabras más frecuentes por clase.}}{6}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:palabras_freq}{{4}{6}{Top 15 palabras más frecuentes por clase}{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Análisis del vocabulario por clase}{6}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Construcción del vocabulario y conversión a IDs}{7}{subsection.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Ejercicio 1: Generación de Word Embeddings con Skip-Gram}{7}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}El algoritmo Skip-Gram}{7}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Negative Sampling}{7}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Arquitectura del modelo Skip-Gram}{8}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Configuraciones entrenadas y resultados}{8}{subsection.3.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Configuraciones de los seis modelos Skip-Gram entrenados y sus pérdidas finales.}}{8}{table.caption.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Evolución de la pérdida de los nueve modelos Skip-Gram durante 12 épocas.}}{9}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:sg_loss_all}{{5}{9}{Evolución de la pérdida de los nueve modelos Skip-Gram durante 12 épocas}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Pérdida desglosada por dimensión de embedding ($d \in \{312, 752, 1024\}$) y tamaño de ventana.}}{9}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:sg_loss_dim}{{6}{9}{Pérdida desglosada por dimensión de embedding ($d \in \{312, 752, 1024\}$) y tamaño de ventana}{figure.caption.7}{}}
+\citation{hochreiter1997}
+\citation{cho2014}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Ejercicio 2: Clasificación con LSTM y GRU}{10}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Selección del embedding}{10}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Partición del corpus y preparación de secuencias}{10}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Construcción de modelos}{10}{subsection.4.3}\protected@file@percent }
+\citation{keras}
+\citation{tensorflow}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Callbacks de entrenamiento}{11}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Configuraciones evaluadas y resultados}{11}{subsection.4.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Configuraciones evaluadas y \textit  {val\_accuracy} final.}}{11}{table.caption.8}\protected@file@percent }
+\newlabel{tab:resultados}{{2}{11}{Configuraciones evaluadas y \textit {val\_accuracy} final}{table.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Evolución de \textit  {accuracy} y \textit  {loss} de las 18 configuraciones LSTM y GRU.}}{12}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:clf_acc}{{7}{12}{Evolución de \textit {accuracy} y \textit {loss} de las 18 configuraciones LSTM y GRU}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Evaluación y preguntas}{13}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Pregunta 1: ¿Ha alcanzado el modelo un entrenamiento óptimo?}{13}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Análisis de las curvas de entrenamiento}{13}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Pregunta 2: ¿Qué revela la matriz de confusión sobre el rendimiento?}{14}{subsection.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Matriz de confusión — mejor LSTM (\texttt  {LSTM\_d16\_1L\_lr0001}).}}{14}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:cm_lstm}{{8}{14}{Matriz de confusión — mejor LSTM (\texttt {LSTM\_d16\_1L\_lr0001})}{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Matriz de confusión — mejor GRU (\texttt  {GRU\_d32\_1L\_lr0001}).}}{14}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:cm_gru}{{9}{14}{Matriz de confusión — mejor GRU (\texttt {GRU\_d32\_1L\_lr0001})}{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Matriz de confusión — mejor LSTM sobre corpus personalizado (20 noticias).}}{15}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:cm_lstm_custom}{{10}{15}{Matriz de confusión — mejor LSTM sobre corpus personalizado (20 noticias)}{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Matriz de confusión — mejor GRU sobre corpus personalizado (20 noticias).}}{15}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:cm_gru_custom}{{11}{15}{Matriz de confusión — mejor GRU sobre corpus personalizado (20 noticias)}{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Pregunta 3: ¿Qué diferencia de precisión se observa al cambiar de embedding?}{15}{subsection.5.4}\protected@file@percent }
+\citation{mikolov2013}
+\citation{mikolov2013}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Pregunta 4: ¿LSTM y GRU reaccionaron de forma diferente a los embeddings?}{16}{subsection.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusiones}{16}{section.6}\protected@file@percent }
+\bibcite{zhang2015}{1}
+\bibcite{mikolov2013}{2}
+\bibcite{hochreiter1997}{3}
+\bibcite{cho2014}{4}
+\bibcite{tensorflow}{5}
+\bibcite{keras}{6}
+\gdef \@abspage@last{18}
