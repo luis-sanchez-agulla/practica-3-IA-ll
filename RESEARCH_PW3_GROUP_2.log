@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.15)  10 MAY 2026 16:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.15)  10 MAY 2026 18:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -543,7 +543,7 @@ Package pdftex.def Info: img/logo_ufv_header.png  used on input line 56.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.89 \newpage
+l.91 \newpage
               [1] (RESEARCH_PW3_GROUP_2.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -552,75 +552,75 @@ LaTeX Info: Redefining \% on input line 1.
 \openout4 = `RESEARCH_PW3_GROUP_2.toc'.
 
  [2]
-<img/fig_clases.png, id=155, 403.2666pt x 284.0211pt>
+<img/fig_clases.png, id=163, 403.2666pt x 284.0211pt>
 File: img/fig_clases.png Graphic file (type png)
 <use img/fig_clases.png>
-Package pdftex.def Info: img/fig_clases.png  used on input line 118.
+Package pdftex.def Info: img/fig_clases.png  used on input line 120.
 (pdftex.def)             Requested size: 257.37592pt x 181.27449pt.
  [3]
-<img/fig_e1_longitud.png, id=173, 515.2851pt x 284.7438pt>
+<img/fig_e1_longitud.png, id=180, 515.2851pt x 284.7438pt>
 File: img/fig_e1_longitud.png Graphic file (type png)
 <use img/fig_e1_longitud.png>
-Package pdftex.def Info: img/fig_e1_longitud.png  used on input line 134.
+Package pdftex.def Info: img/fig_e1_longitud.png  used on input line 136.
 (pdftex.def)             Requested size: 352.85939pt x 194.98749pt.
  [4 <./img/fig_clases.png> <./img/fig_e1_longitud.png>]
-<img/fig_e2_wordcloud.png, id=182, 1438.173pt x 204.5241pt>
+<img/fig_e2_wordcloud.png, id=189, 1438.173pt x 204.5241pt>
 File: img/fig_e2_wordcloud.png Graphic file (type png)
 <use img/fig_e2_wordcloud.png>
-Package pdftex.def Info: img/fig_e2_wordcloud.png  used on input line 160.
+Package pdftex.def Info: img/fig_e2_wordcloud.png  used on input line 162.
 (pdftex.def)             Requested size: 415.12572pt x 59.03583pt.
-<img/fig_palabras_frecuentes.png, id=184, 1004.553pt x 715.473pt>
+<img/fig_palabras_frecuentes.png, id=191, 1004.553pt x 715.473pt>
 File: img/fig_palabras_frecuentes.png Graphic file (type png)
 <use img/fig_palabras_frecuentes.png>
-Package pdftex.def Info: img/fig_palabras_frecuentes.png  used on input line 175.
+Package pdftex.def Info: img/fig_palabras_frecuentes.png  used on input line 177.
 (pdftex.def)             Requested size: 415.12572pt x 295.66028pt.
  [5 <./img/fig_e2_wordcloud.png>] [6 <./img/fig_palabras_frecuentes.png>] [7] [8]
-<img/fig_skipgram_loss_0.png, id=215, 859.2903pt x 354.123pt>
+<img/fig_skipgram_loss_0.png, id=222, 859.2903pt x 354.123pt>
 File: img/fig_skipgram_loss_0.png Graphic file (type png)
 <use img/fig_skipgram_loss_0.png>
-Package pdftex.def Info: img/fig_skipgram_loss_0.png  used on input line 335.
+Package pdftex.def Info: img/fig_skipgram_loss_0.png  used on input line 337.
 (pdftex.def)             Requested size: 415.12572pt x 171.074pt.
-<img/fig_skipgram_loss_1.png, id=216, 1076.823pt x 298.4751pt>
+<img/fig_skipgram_loss_1.png, id=223, 1076.823pt x 298.4751pt>
 File: img/fig_skipgram_loss_1.png Graphic file (type png)
 <use img/fig_skipgram_loss_1.png>
-Package pdftex.def Info: img/fig_skipgram_loss_1.png  used on input line 342.
+Package pdftex.def Info: img/fig_skipgram_loss_1.png  used on input line 344.
 (pdftex.def)             Requested size: 415.12572pt x 115.06583pt.
  [9 <./img/fig_skipgram_loss_0.png> <./img/fig_skipgram_loss_1.png>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 354.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 356.
  [10]
-Underfull \hbox (badness 2635) in paragraph at lines 397--398
+Underfull \hbox (badness 2635) in paragraph at lines 399--400
 []\OT1/cmr/m/n/10 (+20) Para el en-tre-na-mien-to, se em-plea el op-ti-mi-za-dor \OT1/cmr/bx/n/10 (+20) Adam \OT1/cmr/m/n/10 (+20) y la fun-ci^^Son de p^^Serdi-da
  []
 
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 432.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 434.
 [11]
-<img/fig_clf_accuracy.png, id=243, 1438.173pt x 1158.4881pt>
+<img/fig_clf_accuracy.png, id=248, 1438.173pt x 1158.4881pt>
 File: img/fig_clf_accuracy.png Graphic file (type png)
 <use img/fig_clf_accuracy.png>
-Package pdftex.def Info: img/fig_clf_accuracy.png  used on input line 462.
+Package pdftex.def Info: img/fig_clf_accuracy.png  used on input line 464.
 (pdftex.def)             Requested size: 415.12572pt x 334.39735pt.
  [12 <./img/fig_clf_accuracy.png>] [13]
-<img/fig_confusion_custom_lstm.png, id=259, 403.9893pt x 330.9966pt>
+<img/fig_confusion_custom_lstm.png, id=264, 403.9893pt x 330.9966pt>
 File: img/fig_confusion_custom_lstm.png Graphic file (type png)
 <use img/fig_confusion_custom_lstm.png>
-Package pdftex.def Info: img/fig_confusion_custom_lstm.png  used on input line 506.
+Package pdftex.def Info: img/fig_confusion_custom_lstm.png  used on input line 508.
 (pdftex.def)             Requested size: 199.25856pt x 163.25542pt.
-<img/fig_confusion_custom_gru.png, id=260, 403.9893pt x 330.9966pt>
+<img/fig_confusion_custom_gru.png, id=265, 403.9893pt x 330.9966pt>
 File: img/fig_confusion_custom_gru.png Graphic file (type png)
 <use img/fig_confusion_custom_gru.png>
-Package pdftex.def Info: img/fig_confusion_custom_gru.png  used on input line 512.
+Package pdftex.def Info: img/fig_confusion_custom_gru.png  used on input line 514.
 (pdftex.def)             Requested size: 199.25856pt x 163.25542pt.
-<img/fig_confusion_best_lstm.png, id=263, 385.1991pt x 330.9966pt>
+<img/fig_confusion_best_lstm.png, id=268, 385.1991pt x 330.9966pt>
 File: img/fig_confusion_best_lstm.png Graphic file (type png)
 <use img/fig_confusion_best_lstm.png>
-Package pdftex.def Info: img/fig_confusion_best_lstm.png  used on input line 546.
+Package pdftex.def Info: img/fig_confusion_best_lstm.png  used on input line 548.
 (pdftex.def)             Requested size: 199.25856pt x 171.2202pt.
-<img/fig_confusion_best_gru.png, id=264, 385.1991pt x 330.9966pt>
+<img/fig_confusion_best_gru.png, id=269, 385.1991pt x 330.9966pt>
 File: img/fig_confusion_best_gru.png Graphic file (type png)
 <use img/fig_confusion_best_gru.png>
-Package pdftex.def Info: img/fig_confusion_best_gru.png  used on input line 552.
+Package pdftex.def Info: img/fig_confusion_best_gru.png  used on input line 554.
 (pdftex.def)             Requested size: 199.25856pt x 171.2202pt.
  [14 <./img/fig_confusion_custom_lstm.png> <./img/fig_confusion_custom_gru.png>] [15 <./img/fig_confusion_best_lstm.png> <./img/fig_confusion_best_gru.png>] [16] [17] (RESEARCH_PW3_GROUP_2.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -634,17 +634,17 @@ Package rerunfilecheck Info: File `RESEARCH_PW3_GROUP_2.out' has not changed.
 (rerunfilecheck)             Checksum: 0C47FB97BE72261F60D32AECB2A4E3B8;6575.
  ) 
 Here is how much of TeX's memory you used:
- 17778 strings out of 467871
- 287695 string characters out of 5418376
+ 17772 strings out of 467871
+ 287653 string characters out of 5418376
  948482 words of memory out of 5000000
  46165 multiletter control sequences out of 15000+600000
- 644528 words of font info for 188 fonts, out of 8000000 for 9000
+ 644261 words of font info for 185 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,12n,79p,1276b,710s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\anago\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on RESEARCH_PW3_GROUP_2.pdf (18 pages, 1328007 bytes).
+ <C:\Users\anago\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/anago/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on RESEARCH_PW3_GROUP_2.pdf (18 pages, 1349274 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
+ 390 PDF objects out of 1000 (max. 8388607)
  70 named destinations out of 1000 (max. 500000)
  47365 words of extra memory for PDF output out of 51595 (max. 10000000)
 

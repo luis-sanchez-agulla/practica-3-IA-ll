@@ -74,16 +74,18 @@
 
 \begin{abstract}
 Este informe documenta el desarrollo completo de un sistema de clasificación de texto en cuatro
-categorías de noticias (World, Sports, Business y Sci/Tech) a partir del corpus news\_dataset.csv.
-El trabajo se articula en dos ejercicios consecutivos: el primero aborda la generación de
-\textit{word embeddings} propios mediante el algoritmo Skip-Gram con \textit{Negative Sampling},
-explorando el efecto de la dimensionalidad del vector y el tamaño de la ventana de contexto
-sobre la calidad de las representaciones; el segundo utiliza dichos embeddings como capa
-de entrada de clasificadores basados en arquitecturas recurrentes LSTM y GRU, evaluando
-doce configuraciones de hiperparámetros. El mejor modelo obtenido, \texttt{LSTM\_d64\_1L\_lr001},
-alcanza una \textit{val\_accuracy} del 90,49\,\%, lo que demuestra que embeddings entrenados
-desde cero sobre un corpus temáticamente coherente son suficientes para obtener un rendimiento
-competitivo sin recurrir a representaciones externas preentrenadas.
+categorías de noticias (World, Sports, Business y Sci/Tech) a partir del corpus
+\texttt{news\_dataset.csv}. El trabajo se articula en dos ejercicios consecutivos: el primero
+aborda la generación de \textit{word embeddings} propios mediante el algoritmo Skip-Gram
+\cite{mikolov2013} con \textit{Negative Sampling}, entrenando nueve modelos con distintas
+dimensionalidades ($d \in \{312, 752, 1024\}$) y tamaños de ventana ($w \in \{2, 3, 4\}$);
+el segundo utiliza dos de dichos embeddings (\texttt{dim312\_v2} y \texttt{dim752\_v3}) como
+capa de entrada de clasificadores recurrentes LSTM \cite{hochreiter1997} y GRU \cite{cho2014},
+evaluando 18 configuraciones de hiperparámetros. El modelo seleccionado como más óptimo,
+\texttt{LSTM\_d64\_1L\_lr001} con embedding \texttt{dim312\_v2}, alcanza una
+\textit{val\_accuracy} del 90,22\,\%, demostrando qué embeddings, entrenados desde cero sobre
+un corpus temáticamente coherente, son suficientes para obtener un rendimiento competitivo sin
+recurrir a representaciones externas preentrenadas.
 \end{abstract}
 
 \newpage
